@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>uniqueglass</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<body>
+
+  <!---logo, az alatti kép(section) és bemutatkozó szöveg. A css egyben kezeli az animáció miatt,
+nem érdemes változtatni a sorrenden------------------------------------------------->
+
+  <img class="logo" src="img/logo2.png" alt="logo">
+  <section> </section>
+    <div class="aboutus">
+      <h1> Megalakulásunk </h1>
+      <p>
+        Baráti gondolatok találkozásából alakult egy teljesen magyar
+        tulajdunú kisvállalkozás, abból a célból, hogy a közeli barátoknak
+        és családtagoknak, egy nem mindennapi, teljesen egyedi ajándék
+        kerüljön átadásra egy különösen fontos alkalom megünneplésére.
+        <br>
+        <br>
+        Ez a gondolat, cél vezérelt, hogy ezt a törekvést a
+        kihívásoknak megfelelően a legmagasabb szinten tudjam teljesíteni.
+        <br>
+        <br>
+        Az üvegfújás egy igen ritka szakma, mely manapság egyre inkább
+        a feledés homályába merül. Nem szeretnénk, ha e nemes szakma teljesen
+        eltünne, így ezért meg is teszünk mindent annak érdekében, hogy minnél
+        szélesebb körben megismertessük az embereket az üvegfújással.
+      </p>
+    </div>
+<div class="aboutimg">
+    <img class="aboutimg"src="img/signo.png" alt="signature">
+</div>
+
+  <div class="red"></div>
+
+  <!--galéria CSAK NAGYKÉPERNYŐN------------------------------------------------------------------------->
+  <div class="gallery">
+    <div class="slide">
+      <div class="content">
+        <p>Leírás 1</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="content">
+        <p>Leírás 2</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="content">
+        <p>Leírás 3</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="content">
+        <p>Leírás 4</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="content">
+        <p>Leírás 5</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="content">
+        <p>Leírás 6</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="red"></div>
+
+  <!--geléria CSAK RESPONSIV NÉZETBEN!!!!------------------------------------------------------------------>
+
+
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="respoimg" src="img/kep1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="respoimg" src="img/kep2.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+      <img class="respoimg" src="img/kep3.jpg" alt="">
+    </div>
+      <div class="swiper-slide">
+        <img class="respoimg" src="img/kep4.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="respoimg" src="img/kep5.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="respoimg" src="img/kep6.png" alt="">
+      </div>
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <!--ajándékozós szöveg------------------------------------------------------------------>
+  <div class="gift">
+    <div class="giftflex">
+      <p class="gifttext"> Kedves szokás az ajándékozás.
+        Ünnepi, jeles napokra vagy csak úgy.
+        Figyelmességet árul el és örömet okoz - nemcsak a megajándékozottaknak, hanem az ajándékozóknak is.
+        Az ajándékozás csodája, hogy mindenki gazdagabb lesz általa. </p>
+      <p class="gifttext"> "Az egyedi és személyes ajándékoknak mindig mindenki örül, bármilyen alkalomból kapja is,
+        ezáltal annak is örömet szerez, aki adja. Többféle típusból válogathat: készíttethet
+        személyes ajándékot, személyre szabott meglepetést egyedi felirattal, névvel, választhat különleges anyagot vagy színt."</p>
+    </div>
+
+    <div class="giftflex">
+      <img class="giftbox "src="img/giftbox.jpg" alt="kemence">
+    </div>
+
+  </div>
+
+    <div class="red"></div>
+
+    <!-- VIP rész --------------------------------------------->
+    <div class="vipdiv">
+
+      <div class="vipbuttons">
+        <button onclick="buttonFunctionReg()" class="vipbutton" id="vipbuttonreg">Szeretnék több információt, regisztrálok!</button>
+        <button onclick="buttonFunctionLogin()" class="vipbutton" id="vipbuttonlogin">Már regisztráltam, belépek!</button>  
+      </div>
+    
+    </div>
+
+    <div class="vipdivreg" id="vipdivreg" style="display: none;">   
+
+      <div class="vipregtext">
+        <p>Lorem ipsumm dolor sit amet consectetur adipisicing elit. Totam, earum minus quidem exercitationem rerum illo iste aspernatur. 
+            Voluptatibus, illo similique ipsam velit itaque fuga ab. Modi repellat repellendus a saepe.Lorem ipsumm dolor sit amet consectetur adipisicing elit. Totam, earum minus quidem exercitationem rerum illo iste aspernatur. 
+            Voluptatibus, illo similique ipsam velit itaque fuga ab. Modi repellat repellendus a saepe.Lorem ipsumm dolor sit amet consectetur adipisicing elit. Totam, earum minus quidem exercitationem rerum illo iste aspernatur. 
+            Voluptatibus, illo similique ipsam velit itaque fuga ab. Modi repellat repellendus a saepe.Lorem ipsumm dolor sit amet consectetur adipisicing elit. Totam, earum minus quidem exercitationem rerum illo iste aspernatur. 
+            Voluptatibus, illo similique ipsam velit itaque fuga ab. Modi repellat repellendus a saepe.</p>
+      </div>
+
+    </div>
+
+    <div class="vipdivlogin" id="vipdivlogin" style="display: none;">
+        <form >
+          <div class="field-name">
+            <i class="fas fa-user-lock"></i>
+            <input type="text" name="username" placeholder="felhasználónév">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+          <div class="field-passw inactive">
+            <i class="fas fa-key"></i>
+            <input type="password" name="password" placeholder="jelszó">
+            <i class="fas fa-arrow-right"></i> 
+         </div>
+        </form>
+    </div>
+   
+  <!-- kapcsolati űrlap rész------------------------------------------------>
+
+  <div class="container">
+    <div class="contactform">
+  <!-- innen kezdődik a kapcsolat bal oldali része - statikus------------------------------------------------>
+      <div class="contact-info">
+
+        <h3>KAPCSOLAT</h3>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/business.jpg" class="icon" alt="cégnév">
+              <p>UNIQUE GLASS <br>
+              Accord-Credit Kft</p>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/marker.jpg" class="icon" alt="cím">
+              <p>Nyíregyháza <br> Szegfű utca 73. <br> 4400</p>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/phone.jpg" class="icon" alt="telefon">
+              <p>+36-70-459-3069</p>
+            </div>
+          </div>
+      </div>
+<!-- innen kezdősik a kapcsolati űrlap jobb oldala, interaktív------------------------------------------------>
+      <div class="contact-form">
+
+        <form class="writeusform" action="index.html">
+          <p>Kérdése van?</p>
+          <h3 class="title">ÍRJON NEKÜNK!</h3>
+
+          <div class="input-container">
+            <input type="text" name="name" class="input" autocomplete="off">
+            <label for="">NÉV</label>
+            <span>username</span>
+          </div>
+
+          <div class="input-container">
+            <input type="email" name="email" class="input" autocomplete="off">
+            <label for="">E-MAIL</label>
+            <span>email</span>
+          </div>
+
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" autocomplete="off">
+            <label for="">TELEFON</label>
+            <span>phone</span>
+          </div>
+
+          <div class="input-container textarea">
+            <textarea name="message" class="input" autocomplete="off"></textarea>
+            <label for="">ÜZENET</label>
+            <span>message</span>
+          </div>
+
+          <input type="submit" value="ELKÜLD" class="btn">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--footer---------------------------------------------------->
+
+  <div class="footer">
+    <div class="footeritem">
+
+
+      <a href="terms.html">
+        <p class="footertext">Adatvédelmi szabályzat (Privacy Policy)</p>
+      </a>
+    </div>
+    <div class="footeritem">
+
+      <img class="footerlogo" src="img/logo2.png" alt="logo">
+    </div>
+    <div class="footeritem">
+
+      <p class="footertext">Copyright © 2020 uniqueglass</p>
+    </div>
+  </div>
+
+
+
+  <!--script rész---------------------------------------------------------------->
+  <script src=js/login.js></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/contact.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/570d935148.js" crossorigin="anonymous"></script>
+  <script src=js/login.js></script>
+</body>
+
+</html>
