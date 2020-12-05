@@ -1,5 +1,5 @@
 
-// Ez a felső rész
+// Ez a felső rész.
 let section = document.querySelector ('section');
 window.addEventListener('scroll', function(){
   // Az ablak Y mérete.
